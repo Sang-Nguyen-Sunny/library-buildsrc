@@ -1,0 +1,188 @@
+ package dependencies
+
+object Dependencies {
+    object Version {
+        const val KOTLIN = "1.5.10"
+        const val RECYCLER_LIB = "1.2.0-beta01"
+        const val CARD_VIEW = "1.0.0"
+        const val SWIPE_TO_REFERESH = "1.1.0"
+        const val CORE_KTX = "1.6.0-beta02"
+        const val COLLECTION_KTX = "1.1.0"
+        const val APPCOMPAT_LIB = "1.3.0"
+        const val MATERIAL_LIB = "1.4.0-rc01"
+        const val CONSTRAINT = "2.0.4"
+        const val CROP = "2.8.0"
+        const val KOIN = "3.1.0"
+        const val ROOM = "2.3.0"
+        const val RETROFIT = "2.9.0"
+        const val RETROFIT_CONVERTER = "4.9.0"
+        const val COROUTINES = "1.5.0"
+        const val COROUTINES_MANAGER = "1.2.35"
+        const val LIFECYCLE = "2.3.1"
+        const val MATERIAL_DIALOG = "3.3.0"
+        const val GLIDE = "4.12.0"
+        const val OKHTTP = "4.9.0"
+        const val KIEL = "1.2.1"
+        const val MOSHI = "1.12.0"
+        const val SDP = "1.0.6"
+        const val SSP = "1.0.6"
+        const val PAGING = "2.1.1"
+        const val DOT_SCORNER = "4.1.2"
+        const val DATA_BINDING = "3.1.3"
+        const val VIEWPAGER2 = "1.1.0-alpha01"
+        const val BUTTON_PROGRESS = "2.1.0"
+        const val RECYCLER_VIEW_ANIMATION = "4.0.2"
+        const val IMAGE_VIEW_CIRCLE = "v1.2"
+        const val LEARN_BACK = "1.0.0"
+        const val LEARN_BACK_PAGING = "1.1.0-alpha05"
+        const val NETWORK_RESPONSE_ADAPTER = "3.0.1"
+        const val VECTOR_STATE = "0.6.3"
+        const val OKIO = "2.2.1"
+        const val LEAK_CANARY = "2.5"
+        const val RETROFIT_LOGGING = "3.1.0"
+        const val NAVIGATION = "2.3.5"
+        const val NAVIGATION_COMPOSE = "1.0.0-alpha10"
+        const val FAST_ADAPTER = "5.4.1"
+        const val ACTIVITY = "1.3.0-beta01"
+        const val FRAGMENT = "1.4.0-alpha02"
+        const val TIMEBER = "4.7.1"
+        const val MUlTIDEX = "2.0.1"
+    }
+
+    const val KOTLIN = "org.jetbrains.kotlin:kotlin-stdlib:${Version.KOTLIN}"
+    const val CORE_KTX = "androidx.core:core-ktx:${Version.CORE_KTX}"
+    const val COLLECTION_KTX = "androidx.collection:collection-ktx:${Version.COLLECTION_KTX}"
+    const val OKHTTP = "com.squareup.okhttp3:okhttp:${Version.OKHTTP}"
+    const val OKIO = "com.squareup.okio:okio:${Version.OKIO}"
+
+    //UI
+    const val APPCOMPAT = "androidx.appcompat:appcompat:${Version.APPCOMPAT_LIB}"
+    const val ACTIVITY = "androidx.activity:activity-ktx:${Version.ACTIVITY}"
+    const val FRAGMENT = "androidx.fragment:fragment-ktx:${Version.FRAGMENT}"
+    const val LEARN_BACK = "androidx.leanback:leanback:${Version.LEARN_BACK}"
+    const val LEARN_BACK_PAGING = "androidx.leanback:leanback-paging:${Version.LEARN_BACK_PAGING}"
+    const val EMBEDDABLE = "org.jetbrains.kotlin:kotlin-compiler-embeddable:${Version.KOTLIN}"
+    const val MATERIAL = "com.google.android.material:material:${Version.MATERIAL_LIB}"
+    const val RECYCYLER_VIEW = "androidx.recyclerview:recyclerview:${Version.RECYCLER_LIB}"
+    const val RECYCYLER_VIEW_ANIMATION = "jp.wasabeef:recyclerview-animators:${Version.RECYCLER_VIEW_ANIMATION}"
+    const val RECYCYLER_VIEW_EASY = "com.github.pedrofsn:EasyRecyclerview:1.0.2"
+    const val SWIPE_TO_REFERESH = "androidx.swiperefreshlayout:swiperefreshlayout:${Version.SWIPE_TO_REFERESH}"
+    const val CONSTRAINT = "androidx.constraintlayout:constraintlayout:${Version.CONSTRAINT}"
+    const val NAVIGATION_FRAGMENT = "androidx.navigation:navigation-fragment-ktx:${Version.NAVIGATION}"
+    const val NAVIGATION_UI = "androidx.navigation:navigation-ui-ktx:${Version.NAVIGATION}"
+    const val NAVIGATION_RUNTIME = "androidx.navigation:navigation-runtime:${Version.NAVIGATION}"
+    const val NAVIGATION_COMPOSE = "androidx.navigation:navigation-compose:${Version.NAVIGATION_COMPOSE}"
+    const val CROP = "com.theartofdev.edmodo:android-image-cropper:${Version.CROP}"
+    const val MATERIAL_DIALOG = "com.afollestad.material-dialogs:core:${Version.MATERIAL_DIALOG}"
+    const val GLIDE = "com.github.bumptech.glide:glide:${Version.GLIDE}"
+    const val GLIDE_COMPILER = "com.github.bumptech.glide:compiler:${Version.GLIDE}"
+    const val SDP = "com.intuit.sdp:sdp-android:${Version.SDP}"
+    const val SSP = "com.intuit.ssp:ssp-android:${Version.SSP}"
+    const val PAGING = "androidx.paging: paging-runtime-ktx:${Version.PAGING}"
+    const val DOT_SCORNER = "com.tbuonomo.andrui:viewpagerdotsindicator:${Version.DOT_SCORNER}"
+    const val DATABINDING = "com.android.databinding:compiler:${Version.DATA_BINDING}"
+    const val VIEWPAGER2 = "androidx.viewpager2:viewpager2:${Version.VIEWPAGER2}"
+    const val BUTTON_PROGRESS = "com.github.razir.progressbutton:progressbutton:${Version.BUTTON_PROGRESS}"
+    const val IMAGE_VIEW_CIRCLE = "com.github.abdularis:circularimageview:${Version.IMAGE_VIEW_CIRCLE}"
+    const val LEAK_CANARY = "com.squareup.leakcanary:leakcanary-android:${Version.LEAK_CANARY}"
+    const val FAST_ADAPTER = "com.mikepenz:fastadapter:${Version.FAST_ADAPTER}"
+    const val FAST_ADAPTER_BINDING = "com.mikepenz:fastadapter-extensions-binding:${Version.FAST_ADAPTER}"
+    const val FAST_ADAPTER_PAGING = "com.mikepenz:fastadapter-extensions-paged:${Version.FAST_ADAPTER}"
+    const val RXJAVA = "io.reactivex.rxjava3:rxjava:3.0.12"
+    const val WORKMANAGER = "androidx.work:work-runtime-ktx:2.5.0"
+    const val PARCELIZE = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.0"
+    const val MULTIDEX = "androidx.multidex:multidex:${Version.MUlTIDEX}"
+
+    const val EXPAND_RECYCLER_VIEW = "com.github.skydoves:expandablelayout:1.0.6"
+    const val CALENDAR = "com.applandeo:material-calendar-view:1.7.0"
+
+    const val LOGGER_ERROR = "com.orhanobut:logger:2.2.0"
+
+    //koin
+    const val KOIN_CORE = "io.insert-koin:koin-core:${Version.KOIN}"
+    const val KOIN_ANDROID = "io.insert-koin:koin-android:${Version.KOIN}"
+    const val KOIN_WORKMANAGER = "io.insert-koin:koin-androidx-workmanager:${Version.KOIN}"
+    const val KOIN_LOG = "io.insert-koin:koin-logger-slf4j:${Version.KOIN}"
+
+    //CACHE
+    const val ROOM_RUNTIME = "androidx.room:room-runtime:${Version.ROOM}"
+    const val ROOM_COMPILER = "androidx.room:room-compiler:${Version.ROOM}"
+    const val ROOM_KTX = "androidx.room:room-ktx:${Version.ROOM}"
+
+    //DATA
+    const val MOSHI = "com.squareup.moshi:moshi:${Version.MOSHI}"
+    const val MOSHI_KTX = "com.squareup.moshi:moshi-kotlin:${Version.MOSHI}"
+    const val MOSHI_COGEN = "com.squareup.moshi:moshi-kotlin-codegen:${Version.MOSHI}"
+    const val MOSHI_ADAPTER = "com.squareup.moshi:moshi-adapters:${Version.MOSHI}"
+    const val MOSHI_CONVERTER = "com.squareup.retrofit2:converter-moshi:${Version.RETROFIT}"
+    const val MOSHI_SCALAR = "com.squareup.retrofit2:converter-scalars:2.4.0"
+
+
+    //Remote
+    const val RETROFIT = "com.squareup.retrofit2:retrofit:${Version.RETROFIT}"
+    const val RETROFIT_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:${Version.RETROFIT_CONVERTER}"
+    const val RETROFIT_LOGGING = "com.github.ihsanbal:LoggingInterceptor:${Version.RETROFIT_LOGGING}"
+
+    const val VECTOR_STATE = "com.github.haroldadmin:Vector:${Version.VECTOR_STATE}"
+    const val WEBSOCKET = "org.java-websocket:Java-WebSocket:1.5.1"
+
+    //coroutines
+    const val COROUTINES_CORE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Version.COROUTINES}"
+    const val COROUTINES_ANDROID = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Version.COROUTINES}"
+    const val COROUTINES_MANAGER = "com.rasalexman.coroutinesmanager:coroutinesmanager:${Version.COROUTINES_MANAGER}"
+    const val COROUTINES_ADAPTER = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-experimental-adapter:1.0.0"
+
+    //lifeCycle
+    const val LIFECYCLE_RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:${Version.LIFECYCLE}"
+    const val LIFECYCLE_COMPILER = "androidx.lifecycle:lifecycle-compiler:${Version.LIFECYCLE}"
+    const val LIFECYCLE_KTX = "androidx.lifecycle:lifecycle-livedata-ktx:${Version.LIFECYCLE}"
+    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Version.LIFECYCLE}"
+    const val LIFECYCLE_COMMON = "androidx.lifecycle:lifecycle-common-java8:${Version.LIFECYCLE}"
+
+    //kiel
+    const val KIEL = "me.ibrahimyilmaz:kiel:${Version.KIEL}"
+
+    //Log
+    const val TIMBER = "com.jakewharton.timber:timber:${Version.TIMEBER}"
+    const val TIMBER_LOGGER = "com.github.quentin7b:koin-timber-logger:2.0.0"
+
+    const val LOCALIZATION = "com.akexorcist:localization:1.2.10"
+
+    //FIREBASE
+    const val FIREBASE_DATABASE = "com.google.firebase:firebase-database:19.5.1"
+    const val FIREBASE_AUTH = "com.google.firebase:firebase-auth:6.4.0"
+    const val FIREBASE_UI = "com.firebaseui:firebase-ui-auth:7.1.1"
+    const val FACEBOOK_AUTH = "com.facebook.android:facebook-android-sdk:4.x"
+    const val FIREBASE_CRASHLYTICS = "com.google.firebase:firebase-crashlytics"
+    const val FIREBASE_PERFORMENT = "com.google.firebase:firebase-perf"
+    const val FIREBASE_ANALYTICS = "com.google.firebase:firebase-analytics"
+    const val FIREBASE_MESSAGE = "com.google.firebase:firebase-messaging-ktx"
+    const val FIREBASE_DYNAMIC_LINK = "com.google.firebase:firebase-dynamic-links-ktx"
+    const val FIREBASE_MESSAGE_IN_APP = "com.google.firebase: firebase-inappmessaging"
+    const val FIREBASE_MESSAGE_DIRECTBOOT = "com.google.firebase:firebase-messaging-directboot:20.2.0"
+    const val GOOGLE_SERIVCE =  "com.google.android.gms:play-services-auth:19.0.0"
+    const val FIREBASE_BOM = "com.google.firebase:firebase-bom:27.1.0"
+    const val GOOGLE_CACHE = "com.google.android.gms:play-services-safetynet:17.0.0"
+    const val BROWSER = "androidx.browser:browser:1.3.0"
+    const val GOOGLE_API_PHONE = "com.google.android.gms:play-services-auth-api-phone:17.4.0"
+    const val GOOGLE_SERVICE_MAP = "com.google.android.gms:play-services-maps:17.0.0"
+    const val GOOGLE_SERVICE_LOCATION = "com.google.android.gms:play-services-location:18.0.0"
+    const val GOOGLE_DIRECTION = "com.github.malikdawar:drawroute:1.5"
+    const val GOOGLE_PLACE = "com.google.android.libraries.places:places:2.4.0"
+
+    const val TRANSFORMATION_LAYOUT = "com.github.skydoves:transformationlayout:1.0.7"
+    const val SHIMMER_RECYCLER_VIEW = "com.facebook.shimmer:shimmer:0.5.0" //"com.github.skydoves:androidveil:1.1.1"
+    const val RATING_BAR = "me.zhanghai.android.materialratingbar:library:1.4.0"
+    const val BASE_RECYCLER_VIEW_ADAPTER = "com.github.skydoves:baserecyclerviewadapter:0.1.3"
+    const val JSONPARSER = "com.beust:klaxon:5.0.1"
+    const val CIRCLE_PROGRESSBAR = "com.mikhaellopez:circularprogressbar:3.0.3"
+    const val NOTIFICATION_BADGE = "me.leolin:ShortcutBadger:1.1.22@aar"
+    const val NOTIFICATION_BADGE_TOOLBAR = "com.mikepenz:actionitembadge:4.0.0"
+
+    const val COMMONS = "commons-io:commons-io:2.5"
+
+    const val MOMO = "com.github.momo-wallet:mobile-sdk:1.0.6"
+    const val RESIZE_IMAGE = "id.zelory:compressor:3.0.1"
+
+    const val SUNNY_LIBRARY = "com.github.nguyenvansang:library-base:v1.0.1"
+}
