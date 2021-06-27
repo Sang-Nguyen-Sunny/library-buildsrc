@@ -35,7 +35,6 @@ object Dependencies {
         const val IMAGE_VIEW_CIRCLE = "v1.2"
         const val LEARN_BACK = "1.0.0"
         const val LEARN_BACK_PAGING = "1.1.0-alpha05"
-        const val NETWORK_RESPONSE_ADAPTER = "3.0.1"
         const val VECTOR_STATE = "0.6.3"
         const val OKIO = "2.2.1"
         const val LEAK_CANARY = "2.5"
@@ -184,5 +183,6 @@ object Dependencies {
     const val MOMO = "com.github.momo-wallet:mobile-sdk:1.0.6"
     const val RESIZE_IMAGE = "id.zelory:compressor:3.0.1"
 
-    const val SUNNY_LIBRARY = "com.github.nguyenvansang:library-base:v1.0.1"
+    const val SUNNY_LIBRARY_BASE = "com.github.nguyenvansang:library-base:v1.0.1"
+    const val DATEPICKER = "com.github.niwattep:material-slide-date-picker:v2.0.0"
 }
